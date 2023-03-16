@@ -310,11 +310,7 @@ Returns the shape at the index in the parameter
 */
 Shape* CanvasList::shapeAt(int index) const
 {
-  if(isempty())//if the list is empty return a null value
-  {
-    return nullptr;
-  }
-  else if(index > listSize-1)//if the index is greater than the list
+  if(isempty() || index >= listSize || index < 0)//if the list is empty, negative, or greater than the list return a null value
   {
     return nullptr;
   }

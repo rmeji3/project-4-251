@@ -124,7 +124,7 @@ int Circle::getRadius() const
 }
 void Circle::setRadius(int r)
 {
-  r = radius;
+  radius = r;
 }
 
 void Circle::printShape() const
