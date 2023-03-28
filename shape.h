@@ -1,5 +1,11 @@
 #pragma once
+/*
+      Rafael Mejia
+      cs 251
+      march 27 2023
 
+
+*/
 using namespace std;
 
 class Shape
